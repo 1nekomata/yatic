@@ -1,0 +1,21 @@
+{
+    "logging": {
+      "level": "trace",
+      "filename": "log/bot.log",
+      "quiet": true,
+      "overwrite": false,
+      "use_color": true,
+      "http": {
+        "enable": true,
+        "filename": "log/http.log"
+      },
+      "disable_modules": ["WEBSOCKETS", "USER_AGENT"]
+    },
+    "discord": {
+      "token": "replaceme",
+      "default_prefix": {
+        "enable": false,
+        "prefix": "yat!"
+      }
+    }
+}
