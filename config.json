@@ -1,3 +1,5 @@
+// based on example from https://github.com/cee-studio/orca/blob/master/config.json
+
 {
     "logging": {
       "level": "trace",
