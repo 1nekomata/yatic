@@ -1,6 +1,5 @@
-// based on example from https://github.com/cee-studio/orca/blob/master/config.json
-
 {
+    "_cee-studio_notice": "based on example from https://github.com/cee-studio/orca/blob/master/config.json",
     "logging": {
       "level": "trace",
       "filename": "log/bot.log",
