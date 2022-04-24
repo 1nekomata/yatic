@@ -1,6 +1,3 @@
 .PHONY build:
 build:
-	@gcc main.c conn.c kick.c ks.c -o yatic -O2 -Wall -lpthread -ldiscord -lcurl
-.PHONY debug:
-debug:
-	@gcc main.c conn.c kick.c ks.c -o yatic -O2 -Wall -lpthread -ldiscord -lcurl -g
+	gcc src/main.c src/msg.c src/conn.c src/moderation/kick.c src/moderation/ks.c src/moderation/ban.c -o yattmab -O2 -Wall -lpthread -ldiscord -lcurl
