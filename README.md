@@ -5,6 +5,9 @@ Yet Another Thing I Created is a very basic(for now) Discord Bot that was Writte
 Build the Bot with `make build` and add your token within `config.json` or provide your own config file that you can use like so: `./yatic example_config.json`
 To see all commands, type `yatic help me` in a Server that yatic has been added to.
 
+## Notes
+If the Error "Expected:       Could not create logger file" occurs create a directory called log or change where the logs are stored in config.json or your custom config
+
 ## Credit
 [cee.studio](https://github.com/cee-studio) for the [Orca Library](https://github.com/cee-studio/orca)
 
