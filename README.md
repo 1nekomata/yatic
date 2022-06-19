@@ -2,7 +2,8 @@
 Yet Another Thing I Created is a very basic(for now) Discord Bot that was Written in C using the [Orca Library](https://github.com/cee-studio/orca)
 
 ## Usage
-Build the Bot with `make build` and add your token within `config.json` or provide your own config file that you can use like so: `./yatic example_config.json`
+Before building the Bot run `make update`.
+Then build the Bot with `make build` and add your token within `config.json` or provide your own config file that you can use as an argument: `./yatic example_config.json`
 To see all commands, type `yatic help me` in a Server that yatic has been added to.
 
 ## Notes
