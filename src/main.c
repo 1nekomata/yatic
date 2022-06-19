@@ -1,6 +1,6 @@
 /*
  * PLEASE READ THE COPYRIGHT NOTICE AT THE END OF THIS FILE!
-/*
+ */
 
 #include <assert.h>
 #include <bits/getopt_core.h>
