@@ -62,7 +62,7 @@ void on_tsundere(struct discord *client, const struct discord_message *msg){
 
 void on_off(struct discord *client, const struct discord_message *msg){
     if(msg->author->bot) { return; }
-    if (msg->author->id == 512993168988569611) {
+    if (msg->author->id == 512993168988569611) /*replace this with any ID*/ {
         struct discord_create_message_params params = { .content = "stopping yatic..."};
         discord_create_message(client, msg->channel_id, &params, NULL);
         exit(0);        
