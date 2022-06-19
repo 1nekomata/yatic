@@ -13,7 +13,7 @@
       "disable_modules": ["WEBSOCKETS", "USER_AGENT"]
     },
     "discord": {
-      "token": "yourtokengoeshere",
+      "token": "ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s",
       "default_prefix": {
         "enable": false,
         "prefix": "yat!"

@@ -1,5 +1,5 @@
-#include <orca/discord.h>
-#include <orca/log.h>
+#include "orca/discord.h"
+#include "orca/log.h"
 
 #include <assert.h>
 #include <stdbool.h>

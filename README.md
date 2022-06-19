@@ -11,8 +11,7 @@ If the Error "Expected:       Could not create logger file" occurs create a dire
 ## Credit
 [cee.studio](https://github.com/cee-studio) for the [Orca Library](https://github.com/cee-studio/orca)
 
-
-[patemathic](https://github.com/patemathic) for the Original Idea
+Original idea by [patemathic](https://github.com/patemathic)
 
 ## Copyright notice of the Orca Library
 ```MIT License

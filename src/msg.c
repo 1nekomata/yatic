@@ -45,6 +45,13 @@ void on_help(struct discord *client, const struct discord_message *msg){
     discord_create_message(client, msg->channel_id, &params, NULL);
 }
 
+void on_tsundere(struct discord *client, const struct discord_message *msg){
+    if(msg->author->bot) { return; }
+
+    struct discord_create_message_params params = { .content = "dareka tsundere desuka!? baka!! >///<" };
+    discord_create_message(client, msg->channel_id, &params, NULL);
+}
+
 void msg(struct discord *client){
     discord_set_on_command(client, "yatic test", &on_test);
     discord_set_on_command(client, "amogus", &on_sus);
@@ -53,4 +60,5 @@ void msg(struct discord *client){
     discord_set_on_command(client, "yat!help", &on_help);
     discord_set_on_command(client, "i wanna experience the selfburn powered by yatic", &selfinit);
     discord_set_on_command(client, "yat!kill", &on_ks);
+    discord_set_on_command(client, "yatic is a tsundere", &on_tsundere);
 }

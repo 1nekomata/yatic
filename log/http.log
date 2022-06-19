@@ -1,0 +1,399 @@
+HTTP_SEND_GET [USER_AGENT #TID2627888960] - 2022-05-9T12:22:21.894Z - https://discord.com/api/v9/users/@me
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot yourtokengoeshere
+Content-Type: application/json
+
+@@@_1_@@@
+HTTP_RCV_UNAUTHORIZED(401) [USER_AGENT #TID2627888960] - 2022-05-9T12:22:22.103Z - https://discord.com/api/v9/users/@me
+date: Mon, 09 May 2022 11:22:22 GMT
+content-type: application/json
+content-length: 43
+cf-ray: 708a0e8f3eff00fc-AMS
+set-cookie: __dcfduid=4b7b4af6cf8a11ec97e5dac2c97dc8f8; Expires=Sat, 08-May-2027 11:22:22 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 google
+cf-cache-status: DYNAMIC
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __sdcfduid=4b7b4af6cf8a11ec97e5dac2c97dc8f8cf82f4a15a72cf201916c326c594cdbf67bfb7d7a9743516a35b6a8ae7e4c288; Expires=Sat, 08-May-2027 11:22:22 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 14
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wWFmicoGpruxE5ewYnPaM%2FBJkSy8ltm6DLGwRNwn%2FZ6vHucUpJw%2FTa9Zp6E5WM7%2BrE7GkWfkE30sq%2BqjrfxAET6LcR2dMwmM7aiupiZOgtws6gfE5m%2Bq9i1gWfbc"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+
+{"message": "401: Unauthorized", "code": 0}
+@@@_2_@@@
+HTTP_SEND_GET [USER_AGENT #TID2627888960] - 2022-05-9T12:22:22.103Z - https://discord.com/api/v9/gateway/bot
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot yourtokengoeshere
+Content-Type: application/json
+
+@@@_3_@@@
+HTTP_RCV_UNAUTHORIZED(401) [USER_AGENT #TID2627888960] - 2022-05-9T12:22:22.233Z - https://discord.com/api/v9/gateway/bot
+date: Mon, 09 May 2022 11:22:22 GMT
+content-type: application/json
+content-length: 43
+set-cookie: __dcfduid=4b8f5c30cf8a11ec866d5aa189ede998; Expires=Sat, 08-May-2027 11:22:22 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=4b8f5c30cf8a11ec866d5aa189ede998bee0559afb151150039595618458793ac0ecbe12b06d5574a1286dcc36cd7886; Expires=Sat, 08-May-2027 11:22:22 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-envoy-upstream-service-time: 11
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ws0HG7X63TC2qhY95fNFiZ7fDWuJ3K%2Fxn1%2F1URM2uVgS1A%2FDneG0fQp4p8DqUhG0bmYw0SLQUYPYoEwGBx1Sq7JL40ZcHbQXSMz9GNBv5yVnaZ44oFDgMobExbzG"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a0e903fa700fc-AMS
+
+{"message": "401: Unauthorized", "code": 0}
+@@@_4_@@@
+HTTP_SEND_GET [USER_AGENT #TID4244531008] - 2022-05-9T12:22:57.164Z - https://discord.com/api/v9/users/@me
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+
+@@@_1_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID4244531008] - 2022-05-9T12:22:57.418Z - https://discord.com/api/v9/users/@me
+date: Mon, 09 May 2022 11:22:57 GMT
+content-type: application/json
+cf-ray: 708a0f6bcf34c83f-AMS
+set-cookie: __dcfduid=60879260cf8a11ec930a523a07edb5af; Expires=Sat, 08-May-2027 11:22:57 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 google
+cf-cache-status: DYNAMIC
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __sdcfduid=60879260cf8a11ec930a523a07edb5af1cbac2a5b08952a670d60baf432f116748394c33720d26e87f85ebe19f1ca496; Expires=Sat, 08-May-2027 11:22:57 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 47
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9JyS1jO4liKNLVfB%2B%2FZapBp5x23qUYw4NX0Zw3WOrEKZEY9zfouv%2BvMfjSMRI92krsmdm9MLTX%2BfBXxm%2FJO36CFWeIoKp5eNzpohx2sayYZlU9%2FdACpM43KWQ3bu"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+
+{"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "flags": 0, "bot": true, "banner": null, "banner_color": null, "accent_color": null, "bio": "", "pronouns": "", "locale": "en-US", "mfa_enabled": false, "email": null, "verified": true}
+@@@_2_@@@
+HTTP_SEND_GET [USER_AGENT #TID4244531008] - 2022-05-9T12:22:57.418Z - https://discord.com/api/v9/gateway/bot
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+
+@@@_3_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID4244531008] - 2022-05-9T12:22:57.572Z - https://discord.com/api/v9/gateway/bot
+date: Mon, 09 May 2022 11:22:57 GMT
+content-type: application/json
+set-cookie: __dcfduid=609e66a2cf8a11ec8a8cde458cddf603; Expires=Sat, 08-May-2027 11:22:57 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=609e66a2cf8a11ec8a8cde458cddf603d972336ce32c6dc2190df9f7fe1704462c1c6d7b9596a8b0bd3c25a6fd1b6b69; Expires=Sat, 08-May-2027 11:22:57 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: 41f9cd5d28af77da04563bcb1d67fdfd
+x-ratelimit-limit: 2
+x-ratelimit-remaining: 1
+x-ratelimit-reset: 1652095382.499
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 23
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jh0AQBQKhIYf6BomSIj5SHjw3wyBeCHD7C8khFu2tmMDAe6tkmyufAiDaIpu2yTTTitXdA4HUx0CTGL3Gxam%2Fsgr0JBGImDdSAYQ4CtgvUoRtZ7A7VWVth1JX0U%2F"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a0f6cf85cc83f-AMS
+
+{"url": "wss://gateway.discord.gg", "shards": 1, "session_start_limit": {"total": 1000, "remaining": 1000, "reset_after": 0, "max_concurrency": 1}}
+@@@_4_@@@
+WS_RCV_CONNECT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.758Z - wss://gateway.discord.gg/?v=9&encoding=json
+
+@@@_5_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.758Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":10,"d":{"heartbeat_interval":41250,"_trace":["[\"gateway-prd-main-lj1f\",{\"micros\":0.0}]"]}}
+@@@_6_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.758Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":2,"d":{"token":"ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s","properties":{"$os":"POSIX","$browser":"orca","$device":"orca"},"compress":false,"large_threshold":0,"guild_subscriptions":false,"presence":{"since":"2022-05-9T12:22:57.163Z","status":"online","afk":false},"intents":4612}}
+@@@_7_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.956Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"READY","s":1,"op":0,"d":{"v":9,"user_settings":{},"user":{"verified":true,"username":"yatic","mfa_enabled":false,"id":"812237169170841651","flags":0,"email":null,"discriminator":"1475","bot":true,"avatar":"24c43c7d590f681873e27d888106f7bf"},"session_id":"6c8bc70d0e793c883ce205135427c857","relationships":[],"private_channels":[],"presences":[],"guilds":[{"unavailable":true,"id":"869894699345915954"},{"unavailable":true,"id":"921018539836600331"},{"unavailable":true,"id":"957605480132403240"}],"guild_join_requests":[],"geo_ordered_rtc_regions":["rotterdam","milan","stockholm","madrid","bucharest"],"application":{"id":"812237169170841651","flags":819200},"_trace":["[\"gateway-prd-main-lj1f\",{\"micros\":89412,\"calls\":[\"discord-sessions-blue-prd-2-73\",{\"micros\":86159,\"calls\":[\"start_session\",{\"micros\":33343,\"calls\":[\"discord-api-f67fc4dd5-rmz8w\",{\"micros\":29440,\"calls\":[\"get_user\",{\"micros\":6772},\"add_authorized_ip\",{\"micros\":1638},\"get_guilds\",{\"micros\":3079},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":3,\"calls\":[]},\"presence_connect\",{\"micros\":2,\"calls\":[]}]}]}]"]}}
+@@@_8_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.956Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":1}
+@@@_9_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.957Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":3,"d":{"since":"2022-05-9T12:22:57.956Z","activities":[{"name":"yat!help ","type":0,"details":" v0.1.0"}],"status":"","afk":false}}
+@@@_10_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:57.957Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"GUILD_MEMBER_UPDATE","s":2,"op":0,"d":{"user":{"username":"yatic","id":"812237169170841651","discriminator":"1475","bot":true,"avatar":"24c43c7d590f681873e27d888106f7bf"},"roles":["869895393486462988","957586388210032662"],"mute":false,"joined_at":"2022-03-23T17:18:30.681000+00:00","hoisted_role":null,"guild_id":"869894699345915954","flags":0,"deaf":false}}
+@@@_11_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:58.008Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"GUILD_MEMBER_UPDATE","s":3,"op":0,"d":{"user":{"username":"yatic","id":"812237169170841651","discriminator":"1475","bot":true,"avatar":"24c43c7d590f681873e27d888106f7bf"},"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-23T16:03:44.615000+00:00","hoisted_role":null,"guild_id":"921018539836600331","flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null}}
+@@@_12_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:58.011Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"GUILD_MEMBER_UPDATE","s":4,"op":0,"d":{"user":{"username":"yatic","id":"812237169170841651","discriminator":"1475","bot":true,"avatar":"24c43c7d590f681873e27d888106f7bf"},"roles":["957605763755429891"],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-27T11:43:25.586000+00:00","hoisted_role":null,"guild_id":"957605480132403240","flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null}}
+@@@_13_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:22:58.066Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_14_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:37.313Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":5,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:23:37.138000+00:00","referenced_message":null,"pinned":false,"nonce":"973183457175797760","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183457482133506","flags":0,"embeds":[],"edited_timestamp":null,"content":"yatic help me","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_15_@@@
+HTTP_SEND_POST [USER_AGENT #TID4244531008] - 2022-05-9T12:23:37.313Z - https://discord.com/api/v9/channels/921018540331511829/messages
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+{"content":"`yatic test` for a Greeting\n`amogus` for sus\n`lenny` to lenny\n`yatic help me` or `yat!help` shows this\n`i wanna experience the selfburn powered by yatic` kicks the user who sent the message (make sure you have an invitation link of this server)\n\n`yat!ban` and `yat!unban` to ban and unban respectively\n`yat!kick` to kick the specified user\n`yat!kill` to delete *every* message sent by user and mute them"}
+@@@_16_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID4244531008] - 2022-05-9T12:23:37.601Z - https://discord.com/api/v9/channels/921018540331511829/messages
+date: Mon, 09 May 2022 11:23:37 GMT
+content-type: application/json
+set-cookie: __dcfduid=787abb22cf8a11eca2b04ac0b4646040; Expires=Sat, 08-May-2027 11:23:37 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=787abb22cf8a11eca2b04ac0b4646040f86076ad662d18554048fe1f4b5bff8b290044cf727f3613258fedbaa1ab447a; Expires=Sat, 08-May-2027 11:23:37 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: a06de0de4a08126315431cc0c55ee3dc
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1652095422.416
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 158
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ctrWot2C5Ht1bJQLtwIY09uXT1AWfbYl%2BKQDRcvji0IjA3XYu2ntwZwuTTB9zth1v1Y6N1hAgB4ynzQazA2zEPYsjcdFe1okEeViBCm1yGATUuHovWE%2BAnw1Vbun"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a10664e57c83f-AMS
+
+{"id": "973183458845274132", "type": 0, "content": "`yatic test` for a Greeting\n`amogus` for sus\n`lenny` to lenny\n`yatic help me` or `yat!help` shows this\n`i wanna experience the selfburn powered by yatic` kicks the user who sent the message (make sure you have an invitation link of this server)\n\n`yat!ban` and `yat!unban` to ban and unban respectively\n`yat!kick` to kick the specified user\n`yat!kill` to delete *every* message sent by user and mute them", "channel_id": "921018540331511829", "author": {"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "bot": true}, "attachments": [], "embeds": [], "mentions": [], "mention_roles": [], "pinned": false, "mention_everyone": false, "tts": false, "timestamp": "2022-05-09T11:23:37.463000+00:00", "edited_timestamp": null, "flags": 0, "components": [], "referenced_message": null}
+@@@_17_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:37.602Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":6,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:23:37.463000+00:00","referenced_message":null,"pinned":false,"mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-23T16:03:44.615000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183458845274132","flags":0,"embeds":[],"edited_timestamp":null,"content":"`yatic test` for a Greeting\n`amogus` for sus\n`lenny` to lenny\n`yatic help me` or `yat!help` shows this\n`i wanna experience the selfburn powered by yatic` kicks the user who sent the message (make sure you have an invitation link of this server)\n\n`yat!ban` and `yat!unban` to ban and unban respectively\n`yat!kick` to kick the specified user\n`yat!kill` to delete *every* message sent by user and mute them","components":[],"channel_id":"921018540331511829","author":{"username":"yatic","public_flags":0,"id":"812237169170841651","discriminator":"1475","bot":true,"avatar_decoration":null,"avatar":"24c43c7d590f681873e27d888106f7bf"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_18_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:39.216Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":6}
+@@@_19_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:39.327Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_20_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:43.025Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":7,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:23:42.943000+00:00","referenced_message":null,"pinned":false,"nonce":"973183481142050816","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183481830056006","flags":0,"embeds":[],"edited_timestamp":null,"content":"amogus","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_21_@@@
+HTTP_SEND_POST [USER_AGENT #TID4244531008] - 2022-05-9T12:23:43.025Z - https://discord.com/api/v9/channels/921018540331511829/messages
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+{"content":"sus"}
+@@@_22_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID4244531008] - 2022-05-9T12:23:43.254Z - https://discord.com/api/v9/channels/921018540331511829/messages
+date: Mon, 09 May 2022 11:23:43 GMT
+content-type: application/json
+set-cookie: __dcfduid=7bd7dc5acf8a11eca97d8e846f23a7a7; Expires=Sat, 08-May-2027 11:23:43 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=7bd7dc5acf8a11eca97d8e846f23a7a7f78a0bd5885dfe282aff7ba6697eb40a0606dc93e14b88a3cb218093e7750155; Expires=Sat, 08-May-2027 11:23:43 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: a06de0de4a08126315431cc0c55ee3dc
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1652095428.115
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 96
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6pTyWFrrqBVHTBmhpkT%2BGUMFfrzeOLsn9qHfmV%2FnXTsqWzTyCRUJ9FlI%2FBjNfCju%2BHKao3%2FIM2zAm7oFMYHXsfECaI2q3VxoO9A35gk4CCGJ0xl1VdrB%2FZAft3QI"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a1089fb5dc83f-AMS
+
+{"id": "973183482660519945", "type": 0, "content": "sus", "channel_id": "921018540331511829", "author": {"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "bot": true}, "attachments": [], "embeds": [], "mentions": [], "mention_roles": [], "pinned": false, "mention_everyone": false, "tts": false, "timestamp": "2022-05-09T11:23:43.141000+00:00", "edited_timestamp": null, "flags": 0, "components": [], "referenced_message": null}
+@@@_23_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:23:43.254Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":8,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:23:43.141000+00:00","referenced_message":null,"pinned":false,"mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-23T16:03:44.615000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183482660519945","flags":0,"embeds":[],"edited_timestamp":null,"content":"sus","components":[],"channel_id":"921018540331511829","author":{"username":"yatic","public_flags":0,"id":"812237169170841651","discriminator":"1475","bot":true,"avatar_decoration":null,"avatar":"24c43c7d590f681873e27d888106f7bf"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_24_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:24:20.467Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":8}
+@@@_25_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:24:20.574Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_26_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:24:47.627Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":9,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:24:47.556000+00:00","referenced_message":null,"pinned":false,"nonce":"973183752240889856","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183752836612127","flags":0,"embeds":[],"edited_timestamp":null,"content":"sus","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_27_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:24:51.367Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":10,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:24:51.275000+00:00","referenced_message":null,"pinned":false,"nonce":"973183767755620352","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183768435261501","flags":0,"embeds":[],"edited_timestamp":null,"content":"amogus","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_28_@@@
+HTTP_SEND_POST [USER_AGENT #TID4244531008] - 2022-05-9T12:24:51.367Z - https://discord.com/api/v9/channels/921018540331511829/messages
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+{"content":"sus"}
+@@@_29_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID4244531008] - 2022-05-9T12:24:51.603Z - https://discord.com/api/v9/channels/921018540331511829/messages
+date: Mon, 09 May 2022 11:24:51 GMT
+content-type: application/json
+set-cookie: __dcfduid=a4960b6ccf8a11ec9708e60b2c9a76f2; Expires=Sat, 08-May-2027 11:24:51 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=a4960b6ccf8a11ec9708e60b2c9a76f2bd9336f35c5784cde520624668e269c649c986067efdad560884ac9da674695a; Expires=Sat, 08-May-2027 11:24:51 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: a06de0de4a08126315431cc0c55ee3dc
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1652095496.455
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 102
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PwIf0rCaTBEgNeDLeQ%2BpPeYdg4QK2FzhEhaSkh0C5Av0Moq5nRbwRVzgUwdlPJ151dfFoIn6MRIi9Zgp%2F7k0G1ziYP0zpxBgy1gAOXDYEdwJCROon6%2B%2F0BuLUnqA"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a12352e93c83f-AMS
+
+{"id": "973183769299275776", "type": 0, "content": "sus", "channel_id": "921018540331511829", "author": {"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "bot": true}, "attachments": [], "embeds": [], "mentions": [], "mention_roles": [], "pinned": false, "mention_everyone": false, "tts": false, "timestamp": "2022-05-09T11:24:51.481000+00:00", "edited_timestamp": null, "flags": 0, "components": [], "referenced_message": null}
+@@@_30_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:24:51.603Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":11,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:24:51.481000+00:00","referenced_message":null,"pinned":false,"mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-23T16:03:44.615000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183769299275776","flags":0,"embeds":[],"edited_timestamp":null,"content":"sus","components":[],"channel_id":"921018540331511829","author":{"username":"yatic","public_flags":0,"id":"812237169170841651","discriminator":"1475","bot":true,"avatar_decoration":null,"avatar":"24c43c7d590f681873e27d888106f7bf"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_31_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:01.719Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":11}
+@@@_32_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:01.829Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_33_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:15.687Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":12,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:25:15.586000+00:00","referenced_message":null,"pinned":false,"nonce":"973183869542989824","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183870402965525","flags":0,"embeds":[],"edited_timestamp":null,"content":"mmmmmmm","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_34_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:22.326Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":13,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:25:22.141000+00:00","referenced_message":null,"pinned":false,"nonce":"973183897372196864","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973183897896632380","flags":0,"embeds":[],"edited_timestamp":null,"content":"tttttttttf","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_35_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:42.973Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":13}
+@@@_36_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:43.084Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_37_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID4244531008] - 2022-05-9T12:25:53.622Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":14,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:25:53.555000+00:00","referenced_message":null,"pinned":false,"nonce":"973184028767158272","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973184029656481832","flags":0,"embeds":[],"edited_timestamp":null,"content":"help","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_38_@@@
+HTTP_SEND_GET [USER_AGENT #TID3856693056] - 2022-05-9T12:42:26.361Z - https://discord.com/api/v9/users/@me
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+
+@@@_1_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID3856693056] - 2022-05-9T12:42:26.588Z - https://discord.com/api/v9/users/@me
+date: Mon, 09 May 2022 11:42:26 GMT
+content-type: application/json
+cf-ray: 708a2bf749bf978e-AMS
+set-cookie: __dcfduid=19690870cf8d11ec845d6a380cd56ba6; Expires=Sat, 08-May-2027 11:42:26 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 google
+cf-cache-status: DYNAMIC
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+set-cookie: __sdcfduid=19690870cf8d11ec845d6a380cd56ba624a03a89a2099f17be7342da16d8b44cb573723e91ae3183a3601f994079fe00; Expires=Sat, 08-May-2027 11:42:26 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 20
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rOO3DZlkzf5dsBby%2B8DoBNU6SrItKgy5Hr0ANI4k7CxtL3S2oJpHs89doYZmOal74aGgecud%2FO9pQhfjHGBLb9QTSV9sMSLe5%2Ftv7t6cwn8rxP3O444HNDqMaql0"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+server: cloudflare
+
+{"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "flags": 0, "bot": true, "banner": null, "banner_color": null, "accent_color": null, "bio": "", "pronouns": "", "locale": "en-US", "mfa_enabled": false, "email": null, "verified": true}
+@@@_2_@@@
+HTTP_SEND_GET [USER_AGENT #TID3856693056] - 2022-05-9T12:42:26.589Z - https://discord.com/api/v9/gateway/bot
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+
+@@@_3_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID3856693056] - 2022-05-9T12:42:26.732Z - https://discord.com/api/v9/gateway/bot
+date: Mon, 09 May 2022 11:42:26 GMT
+content-type: application/json
+set-cookie: __dcfduid=197f2556cf8d11ec93002e700c39b6ba; Expires=Sat, 08-May-2027 11:42:26 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=197f2556cf8d11ec93002e700c39b6ba2172e6347bb385f6f8fb995b044f88a6abaf1800942affb22b52fca211192eb9; Expires=Sat, 08-May-2027 11:42:26 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: 41f9cd5d28af77da04563bcb1d67fdfd
+x-ratelimit-limit: 2
+x-ratelimit-remaining: 1
+x-ratelimit-reset: 1652096551.670
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 16
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HKnEaYk0NyV3NP1v9sZWCjrx1S3k%2BZSyuOG%2BY3MTXxj68lRd%2By6rqhrxRMLKtFYWbJxkK1pRL0%2Fy4IVPhZBqnDbFXyg6ER7pSLBcW76ndV7UdgUGTgEY5dJ2bzxK"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a2bf84b33978e-AMS
+
+{"url": "wss://gateway.discord.gg", "shards": 1, "session_start_limit": {"total": 1000, "remaining": 999, "reset_after": 85231158, "max_concurrency": 1}}
+@@@_4_@@@
+WS_RCV_CONNECT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:26.955Z - wss://gateway.discord.gg/?v=9&encoding=json
+
+@@@_5_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:26.955Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":10,"d":{"heartbeat_interval":41250,"_trace":["[\"gateway-prd-main-s8bn\",{\"micros\":0.0}]"]}}
+@@@_6_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:26.955Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":2,"d":{"token":"ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s","properties":{"$os":"POSIX","$browser":"orca","$device":"orca"},"compress":false,"large_threshold":0,"guild_subscriptions":false,"presence":{"since":"2022-05-9T12:42:26.360Z","status":"online","afk":false},"intents":4612}}
+@@@_7_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:27.174Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"READY","s":1,"op":0,"d":{"v":9,"user_settings":{},"user":{"verified":true,"username":"yatic","mfa_enabled":false,"id":"812237169170841651","flags":0,"email":null,"discriminator":"1475","bot":true,"avatar":"24c43c7d590f681873e27d888106f7bf"},"session_id":"dfae9afcec13db09db3e584303f250e1","relationships":[],"private_channels":[],"presences":[],"guilds":[{"unavailable":true,"id":"869894699345915954"},{"unavailable":true,"id":"921018539836600331"},{"unavailable":true,"id":"957605480132403240"}],"guild_join_requests":[],"geo_ordered_rtc_regions":["rotterdam","milan","stockholm","madrid","bucharest"],"application":{"id":"812237169170841651","flags":819200},"_trace":["[\"gateway-prd-main-s8bn\",{\"micros\":98094,\"calls\":[\"discord-sessions-blue-prd-2-20\",{\"micros\":92500,\"calls\":[\"start_session\",{\"micros\":70567,\"calls\":[\"discord-api-f67fc4dd5-82d5x\",{\"micros\":65394,\"calls\":[\"get_user\",{\"micros\":8515},\"add_authorized_ip\",{\"micros\":3813},\"get_guilds\",{\"micros\":10768},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":2,\"calls\":[]}]}]}]"]}}
+@@@_8_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:27.174Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":1}
+@@@_9_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:27.174Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":3,"d":{"since":"2022-05-9T12:42:27.174Z","activities":[{"name":"yat!help ","type":0,"details":" v0.1.0"}],"status":"","afk":false}}
+@@@_10_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:27.292Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_11_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:33.576Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":2,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:42:33.493000+00:00","referenced_message":null,"pinned":false,"nonce":"973188222924357632","mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2021-12-16T12:38:51.617000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973188223700447242","flags":0,"embeds":[],"edited_timestamp":null,"content":"yatic is a tsundere","components":[],"channel_id":"921018540331511829","author":{"username":"onenekomata","public_flags":0,"id":"512993168988569611","discriminator":"8043","avatar_decoration":null,"avatar":"17a4c7e03ecbc474cd0ef69cdfb18c15"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_12_@@@
+HTTP_SEND_POST [USER_AGENT #TID3856693056] - 2022-05-9T12:42:33.576Z - https://discord.com/api/v9/channels/921018540331511829/messages
+User-Agent: Orca (https://github.com/cee-studio/orca)
+Authorization: Bot ODEyMjM3MTY5MTcwODQxNjUx.YC90zw.B00j27C1bvgafTRt8nXaAv8bh9s
+Content-Type: application/json
+{"content":"dareka tsundere desuka!? baka!! >///<"}
+@@@_13_@@@
+HTTP_RCV_OK(200) [USER_AGENT #TID3856693056] - 2022-05-9T12:42:33.801Z - https://discord.com/api/v9/channels/921018540331511829/messages
+date: Mon, 09 May 2022 11:42:33 GMT
+content-type: application/json
+set-cookie: __dcfduid=1db54e20cf8d11ecbb883a9dcec95072; Expires=Sat, 08-May-2027 11:42:33 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+set-cookie: __sdcfduid=1db54e20cf8d11ecbb883a9dcec9507231c84a7d2eb59f83a0fd3e5ec3a1588761606288f05bca52a13ffb144e80835e; Expires=Sat, 08-May-2027 11:42:33 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-ratelimit-bucket: a06de0de4a08126315431cc0c55ee3dc
+x-ratelimit-limit: 5
+x-ratelimit-remaining: 4
+x-ratelimit-reset: 1652096558.669
+x-ratelimit-reset-after: 5.000
+x-envoy-upstream-service-time: 93
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yZjpqtByMwwg1HAqvq%2FzDAAOtTkbPqK%2FkARHTKtgAOOnR6ZRXp0M%2FFKfGreb10R7WrW0zd6DDvUQgecJW%2FZ2nacpYGuPSt1HiWtvHPEzXBIdyKg3emiOSwhq6cWI"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 708a2c23fb55978e-AMS
+
+{"id": "973188224543510568", "type": 0, "content": "dareka tsundere desuka!? baka!! >///<", "channel_id": "921018540331511829", "author": {"id": "812237169170841651", "username": "yatic", "avatar": "24c43c7d590f681873e27d888106f7bf", "avatar_decoration": null, "discriminator": "1475", "public_flags": 0, "bot": true}, "attachments": [], "embeds": [], "mentions": [], "mention_roles": [], "pinned": false, "mention_everyone": false, "tts": false, "timestamp": "2022-05-09T11:42:33.694000+00:00", "edited_timestamp": null, "flags": 0, "components": [], "referenced_message": null}
+@@@_14_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:42:33.801Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":"MESSAGE_CREATE","s":3,"op":0,"d":{"type":0,"tts":false,"timestamp":"2022-05-09T11:42:33.694000+00:00","referenced_message":null,"pinned":false,"mentions":[],"mention_roles":[],"mention_everyone":false,"member":{"roles":[],"premium_since":null,"pending":false,"nick":null,"mute":false,"joined_at":"2022-03-23T16:03:44.615000+00:00","hoisted_role":null,"flags":0,"deaf":false,"communication_disabled_until":null,"avatar":null},"id":"973188224543510568","flags":0,"embeds":[],"edited_timestamp":null,"content":"dareka tsundere desuka!? baka!! >///<","components":[],"channel_id":"921018540331511829","author":{"username":"yatic","public_flags":0,"id":"812237169170841651","discriminator":"1475","bot":true,"avatar_decoration":null,"avatar":"24c43c7d590f681873e27d888106f7bf"},"attachments":[],"guild_id":"921018539836600331"}}
+@@@_15_@@@
+WS_SEND_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:43:08.431Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"op":1,"d":3}
+@@@_16_@@@
+WS_RCV_TEXT [WEBSOCKETS #TID3856693056] - 2022-05-9T12:43:08.557Z - wss://gateway.discord.gg/?v=9&encoding=json
+{"t":null,"s":null,"op":11,"d":null}
+@@@_17_@@@
