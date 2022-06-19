@@ -41,7 +41,15 @@ void selfinit(struct discord *client, const struct discord_message *msg){
 void on_help(struct discord *client, const struct discord_message *msg){
     if(msg->author->bot) { return; }
 
-    struct discord_create_message_params params = { .content = "`yatic test` for a Greeting\n`amogus` for sus\n`lenny` to lenny\n`yatic help me` or `yat!help` shows this\n`i wanna experience the selfburn powered by yatic` kicks the user who sent the message (make sure you have an invitation link of this server)\n\n`yat!ban` and `yat!unban` to ban and unban respectively\n`yat!kick` to kick the specified user\n`yat!kill` to delete *every* message sent by user and mute them" };
+    struct discord_create_message_params params = { .content = "`yatic test` for a Greeting\n"
+    "`amogus` for sus\n"
+    "`lenny` to lenny\n"
+    "`yatic help me` or `yat!help` shows this\n"
+    "`i wanna experience the selfburn powered by yatic` kicks the user who sent the message (make sure you have an invitation link of this server)\n\n"
+    "`yat!ban` and `yat!unban` to ban and unban respectively\n"
+    "`yat!kick` to kick the specified user\n"
+    "`yat!kill` to delete *every* message sent by user and mute them"
+    };
     discord_create_message(client, msg->channel_id, &params, NULL);
 }
 
@@ -52,7 +60,19 @@ void on_tsundere(struct discord *client, const struct discord_message *msg){
     discord_create_message(client, msg->channel_id, &params, NULL);
 }
 
+void on_off(struct discord *client, const struct discord_message *msg){
+    if(msg->author->bot) { return; }
+    if (msg->author->id == 512993168988569611) {
+        struct discord_create_message_params params = { .content = "stopping yatic..."};
+        discord_create_message(client, msg->channel_id, &params, NULL);
+        exit(0);        
+    }
+    struct discord_create_message_params params = { .content = "You don't have permission to stop yatic!"};
+    discord_create_message(client, msg->channel_id, &params, NULL);
+}
+
 void msg(struct discord *client){
+    discord_set_on_command(client, "yat!off", &on_off);
     discord_set_on_command(client, "yatic test", &on_test);
     discord_set_on_command(client, "amogus", &on_sus);
     discord_set_on_command(client, "lenny", &on_lenny);

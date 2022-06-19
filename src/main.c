@@ -31,7 +31,7 @@ int main(int argc, char *argv[]){
     char *floc = "config.json";
 
     activity_msg[0] = "yat!help";
-    activity_msg[1] = "v0.1.0";
+    activity_msg[1] = "v0.1.2";
     activity_msg[2] = " ";
     afk = false;
     activity_type = DISCORD_ACTIVITY_CUSTOM;
