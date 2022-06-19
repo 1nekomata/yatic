@@ -1,8 +1,10 @@
 #include <assert.h>
+#include <bits/getopt_core.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include <unistd.h>
 
 #include <orca/discord.h>
 #include <orca/common.h>
@@ -19,17 +21,28 @@ enum discord_activity_types activity_type;
 bool afk;
 
 int main(int argc, char *argv[]){
-    struct discord *conf;
-    if (argv[1] == NULL) {
-        conf = discord_config_init("config.json");
-    } else {
-        conf = discord_config_init(argv[1]);
+    int opt;
+    char *floc = "config.json";
+
+    while((opt = getopt(argc, argv, "c:")) != -1){
+        switch (opt) {
+            case 'c':
+                floc = optarg;
+                break;
+            default:
+                break;
+        }
     }
+    
+    struct discord *conf;
+
+    conf = discord_config_init(floc);
+
     assert(NULL != conf && "Unable to initialize Client!");
 
-    activity_msg[0] = "yat!help ";
-    activity_msg[1] = " v0.1.0";
-    activity_msg[2] = "";
+    activity_msg[0] = "yat!help";
+    activity_msg[1] = "v0.1.0";
+    activity_msg[2] = " ";
     afk = false;
     activity_type = DISCORD_ACTIVITY_GAME;
 
